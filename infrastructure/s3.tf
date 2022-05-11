@@ -2,7 +2,7 @@
 
 resource "aws_s3_bucket" "datalake-igti" {
     # Parâmetros de configuração do recurso definido
-    bucket = "${var.base-bucket-name}-${var.ambiente}-${var.numero-conta}"
+    bucket = "datalake-igor-igti-edc-tf3"
     acl = "private"
 
     server_side_encryption_configuration {
